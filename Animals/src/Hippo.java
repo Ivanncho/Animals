@@ -7,6 +7,4 @@ public class Hippo extends Animals{
 		System.out.println("Random Hippo noise x)");
 		
 	}
-	
-	
 }

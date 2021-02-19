@@ -7,6 +7,4 @@ public class Cat extends Feline {
 		System.out.println("Miiiaauu");
 		
 	}
-	
-	
 }

@@ -7,6 +7,4 @@ public class Lion extends Feline{
 		System.out.println("Roaarrr");
 		
 	}
-	
-	
 }

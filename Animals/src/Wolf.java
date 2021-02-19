@@ -7,6 +7,4 @@ public class Wolf extends Canine{
 		System.out.println("Aaaauuuuu");
 		
 	}
-	
-	
 }

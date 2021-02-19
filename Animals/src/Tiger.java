@@ -7,6 +7,4 @@ public class Tiger extends Feline{
 		 System.out.println("Tiger Miiaauuu x)");
 		
 	}	
- 
-	
 }
