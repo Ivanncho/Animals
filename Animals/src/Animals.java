@@ -1,8 +1,10 @@
 
-public class Animals {
+abstract public class Animals {
 	private String name;
 	private double height;
 	private String color;
+	
+	abstract public void makeNoise();
 	
 	public void eat() {
 		System.out.println("Eating...");

@@ -1,8 +1,12 @@
 
-public class Tiger extends Animals{
-	 int age;	
- 
-	 public void makeNoise() {
+public class Tiger extends Feline{
+	 int age;
+
+	@Override
+	public void makeNoise() {
 		 System.out.println("Tiger Miiaauuu x)");
-	 }
+		
+	}	
+ 
+	
 }
