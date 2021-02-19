@@ -1,5 +1,5 @@
 
-public class Hippo {
+public class Hippo extends Animals{
 	int age;
 	
 	public void makeNoise() {
