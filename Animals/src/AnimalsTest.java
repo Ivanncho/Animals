@@ -10,6 +10,10 @@ public class AnimalsTest {
 		v.giveShot(d);
 		Cat c = new Cat();
 		v.giveShot(c);
+		
+		MyAnimalsList mal = new MyAnimalsList();
+		mal.add(c);
+		mal.add(d);
 	}
 
 }
