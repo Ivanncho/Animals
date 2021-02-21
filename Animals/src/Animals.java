@@ -7,6 +7,18 @@ abstract public class Animals {
 	
 	abstract public void makeNoise();
 	
+	public Animals() {
+		System.out.println("Making an Animal");
+	}
+	
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
 	public void eat() {
 		System.out.println("Eating...");
 	}

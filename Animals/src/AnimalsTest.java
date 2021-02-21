@@ -14,6 +14,7 @@ public class AnimalsTest {
 		MyAnimalsList mal = new MyAnimalsList();
 		mal.add(c);
 		mal.add(d);
+		
 	}
 
 }
