@@ -3,6 +3,7 @@ abstract public class Animals {
 	private String name;
 	private double height;
 	private String color;
+	private int age;
 	
 	abstract public void makeNoise();
 	

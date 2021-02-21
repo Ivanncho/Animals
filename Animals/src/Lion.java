@@ -1,6 +1,6 @@
 
 public class Lion extends Feline{
-	int age;
+	
 
 	@Override
 	public void makeNoise() {
