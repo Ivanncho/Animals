@@ -7,8 +7,12 @@ abstract public class Animals {
 	
 	abstract public void makeNoise();
 	
-	public Animals() {
+	public Animals(String name,String color,int age) {
 		System.out.println("Making an Animal");
+		this.name = name;
+		this.color = color;
+		this.age = age;
+		System.out.println("Hi, my name is " + name + ", I'm of color " + color + " and I am " + age + " years old");
 	}
 	
 	public int getAge() {

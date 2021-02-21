@@ -2,6 +2,10 @@
 public class Dog extends Canine implements Pets {
 	
 
+	public Dog(String name, String color, int age) {
+		super(name, color, age);
+	}
+
 	@Override
 	public void makeNoise() {
 		System.out.println("Woof Woof..");
